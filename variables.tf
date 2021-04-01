@@ -14,6 +14,6 @@ variable "ingress" {
   type = list(object({
     from_port = string
     to_port   = string
-    cidr      = list
+   # cidr      = string
   }))
 }
