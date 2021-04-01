@@ -10,7 +10,7 @@ variable "tagname" {
   default = "teste"
 }
 
-variable "ingress_rules" {
+variable "ingress" {
   type = list(object({
     from_port = string
     to_port   = string
