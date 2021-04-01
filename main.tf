@@ -1,4 +1,4 @@
-resource "aws_security_group" "allow_tls" {
+resource "aws_security_group" "new_sg" {
   name        = "allow_tls"
   description = "Allow TLS inbound traffic"
   vpc_id      = var.vpc_id
